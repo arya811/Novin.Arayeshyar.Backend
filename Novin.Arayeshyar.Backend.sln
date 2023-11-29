@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novin.Arayeshyar.Backend.Security.API", "Novin.Arayeshyar.Backend.Security.API\Novin.Arayeshyar.Backend.Security.API.csproj", "{B92373D2-A894-4EB2-BABF-57EF099B0DD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{9AC83F5A-E431-4B7C-8818-18476C7D5D78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infrastructure", "2-Infrastructure", "{BFF5D4C3-1A17-4463-8048-32BAAE52202F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-App", "3-App", "{0E5245A4-2803-48BF-AB37-BAA3ACE2F412}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novin.Arayeshyar.Backend.Core", "Novin.Arayeshyar.Backend.Core\Novin.Arayeshyar.Backend.Core.csproj", "{67771229-DFD9-4A99-B8F5-A98C5569BF63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novin.Arayeshyar.Backend.Infrastructure", "Novin.Arayeshyar.Backend.Infrastructure\Novin.Arayeshyar.Backend.Infrastructure.csproj", "{3E0ECA68-5814-418A-84E4-3016B4748480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B92373D2-A894-4EB2-BABF-57EF099B0DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92373D2-A894-4EB2-BABF-57EF099B0DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92373D2-A894-4EB2-BABF-57EF099B0DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92373D2-A894-4EB2-BABF-57EF099B0DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67771229-DFD9-4A99-B8F5-A98C5569BF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67771229-DFD9-4A99-B8F5-A98C5569BF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67771229-DFD9-4A99-B8F5-A98C5569BF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67771229-DFD9-4A99-B8F5-A98C5569BF63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0ECA68-5814-418A-84E4-3016B4748480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0ECA68-5814-418A-84E4-3016B4748480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0ECA68-5814-418A-84E4-3016B4748480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0ECA68-5814-418A-84E4-3016B4748480}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67771229-DFD9-4A99-B8F5-A98C5569BF63} = {9AC83F5A-E431-4B7C-8818-18476C7D5D78}
+		{3E0ECA68-5814-418A-84E4-3016B4748480} = {BFF5D4C3-1A17-4463-8048-32BAAE52202F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17E7B1F3-6BE9-4EBA-8254-DF35ABAA035D}
+	EndGlobalSection
+EndGlobal
